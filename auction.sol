@@ -129,7 +129,7 @@ contract Auction{
                }
            }
        }
-       
+       bids[recipient] = 0;
        //sends value to the recipient
        recipient.transfer(value);
      
